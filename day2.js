@@ -16,8 +16,8 @@ function greet(name = "Guest") {
 greet();
 greet("Keerti");
 
-//When return executes, the function stops running at that point.
-//The returned value can be stored in a variable or used directly.
+/*When return executes, the function stops running at that point.
+The returned value can be stored in a variable or used directly.*/
 function add(a, b) {
   return a + b; // returns the sum
 }
