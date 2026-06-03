@@ -51,6 +51,9 @@ function myFunction() {
 myFunction.name; // Output: "myFunction" - the name of the function
 myFunction.length; // Output: 0 - the number of parameters the function expects
 //Function prototype
+// The prototype property of a function is an object that is shared among all instances
+//  created by that function when used as a constructor. 
+// It allows you to add properties and methods to all instances of the function.
 myFunction.prototype.greet = function () {
     console.log("Hello from the prototype!");
 };
