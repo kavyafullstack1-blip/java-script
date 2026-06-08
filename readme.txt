@@ -94,3 +94,9 @@ function greet(name) {
 greet(); // Undefined issue
 Fix: Call greet("Ajay") to pass a valid argument.
 
+Feature	        Synchronous JavaScript	                      Asynchronous JavaScript
+Code Flow	    Executes in a fixed sequence	              Executes tasks independently
+Blocking	    Blocks further execution until completion	  Does not block other code execution
+Complexity	    Simple and easy to understand	              More complex due to callbacks, promises, etc.
+Best Used For   Simple and sequential tasks	                  Time-consuming operations like API calls and timers
+
